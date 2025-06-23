@@ -1,8 +1,9 @@
 #!/bin/sh
 
 echo npx test of script.sh got $1 and $2 pwd=`pwd`
-app=$1
-user="gdrapeau"
+app=${1:-app}
+repo=${2:-y1}
+user=${3:-gdrapeau}
 repo"y1"
 rm -rf $app
 mkdir $app
@@ -12,4 +13,6 @@ unzip master.zip
 mv ${repo}-main/* .
 rm -rf ${repo}
 rm master.zip
+chmod a+x do/*
+do/init-download
 ls .
