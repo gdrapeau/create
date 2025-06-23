@@ -5,7 +5,7 @@ app=$1
 repo="gdrapeau/y1"
 mkdir $app
 cd $app
-wget -P master.zip https://github.com/$repo/archive/master.zip
+wget -P master.zip https://github.com/$repo/archive/master.zip -O master.zip
 unzip master.zip
 rm master.zip
 ls .
