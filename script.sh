@@ -11,7 +11,7 @@ cd $app
 wget -P master.zip https://github.com/$user/$repo/archive/master.zip -O master.zip
 unzip master.zip
 mv ${repo}-main/* .
-rm -rf ${repo}
+rm -rf ${repo}-main
 rm master.zip
 chmod a+x do/*
 do/init-download
