@@ -1,0 +1,16 @@
+{
+  "name": "x1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "x1": "x1"
+  },
+  "bin":{
+    "x1":"script.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
