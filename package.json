@@ -1,14 +1,14 @@
 {
-  "name": "x1",
+  "name": "y1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "x1": "x1"
+    "install": "y1"
   },
   "bin":{
-    "x1":"script.sh"
+    "y1":"script.sh"
   },
   "keywords": [],
   "author": "",
