@@ -12,7 +12,8 @@ mkdir $app
 cd $app
 wget -P master.zip https://github.com/$user/$repo/archive/master.zip -O master.zip
 unzip master.zip
-mv ${repo}-main/{.*,*} .
+mv ${repo}-main/* .
+mv ${repo)-main/.* .
 rm -rf ${repo}-main
 rm master.zip
 chmod a+x do/*
