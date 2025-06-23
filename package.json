@@ -8,7 +8,8 @@
     "install": "y1"
   },
   "bin":{
-    "y1":"script.sh"
+    "y1":"script.sh",
+    "script2":"script2.sh"
   },
   "keywords": [],
   "author": "",
